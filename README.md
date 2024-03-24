@@ -11,15 +11,15 @@ css框架使用[tailwind](https://tailwind.nodejs.cn/)
 
 ### 以下是部分页面
 登录:使用jwt验证，手机验证码登录（用到了腾讯云sdk），用户信息会被缓存，密码会被加密处理。
-<img src="https://github.com/mayfwl/whmc/raw/main/img/1.png" style="width=210px" />
-<img src="https://github.com/mayfwl/whmc/raw/main/img/2.png" style="width=210px" /> <br />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/1.png" width="310px" />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/2.png" width="310px" /> <br />
 主页：
-<img src="https://github.com/mayfwl/whmc/raw/main/img/3.png" style="width=210px" />
-<img src="https://github.com/mayfwl/whmc/raw/main/img/5.png" style="width=210px" />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/3.png" width="310px" />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/5.png" width="310px" />
 推荐页面：性能上还需要优化（推荐这里加入触底加载，详情，订单页面会缓存）
-<img src="https://github.com/mayfwl/whmc/raw/main/img/4.png" style="width=210px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/6.png" style="width=210px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/7.png" style="width=210px" />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/4.png" width="310px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/6.png" width="310px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/7.png" width="310px" />
 动态：采用比较流行的流体布局，评论区使用的虚拟列表，图片懒加载。后端是根据用户
 点击动态，在根据点击的id发去请求获取发布人的信息，动态所有图片，动态点赞信息，动态评论等，node后端用到了promise，发布图片存储到本地。
-<img src="https://github.com/mayfwl/whmc/raw/main/img/9.png" style="width=210px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/11.png" style="width=210px" />
+<img src="https://github.com/mayfwl/whmc/raw/main/img/9.png" style="width=210px" /><img src="https://github.com/mayfwl/whmc/raw/main/img/11.png" width="310px" />
 个人：
-![](https://github.com/mayfwl/whmc/raw/main/img/10.png)
+<img src="https://github.com/mayfwl/whmc/raw/main/img/10.png" width="310px" />
